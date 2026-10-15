@@ -2,9 +2,19 @@
   "name": "my-way",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "dev": "node dev/server.mjs"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "angular": "1.5.3",
+    "angular-animate": "1.5.3",
+    "angular-aria": "1.5.3",
+    "angular-material": "1.0.6",
+    "angular-material-icons": "0.7.1",
+    "angular-ui-router": "0.2.15",
+    "sass": "1.105.1"
   }
 }
